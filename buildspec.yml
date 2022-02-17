@@ -17,4 +17,4 @@ phases:
     commands:
       - echo "Updating lambda Function...!!!!"
       - aws lambda update-function-code --function-name email_snowflake --zip-file fileb://deployment_package1.zip
-      - echo "DONE!!!"
+      - echo "DONE!!!!"
