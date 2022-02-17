@@ -3,7 +3,8 @@ import boto3
 import pandas as pd
 import numpy as np
 from sqlalchemy import create_engine
-from snowflake.sqlalchemy import URL
+#from snowflake.sqlalchemy import URL
+import URL
 from sqlalchemy import inspect
 
 client = boto3.client("ses")
